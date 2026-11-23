@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — API Auto Test Studio</title>
+<style>
+body{font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;color:#0f172a}
+h1{font-size:1.7rem}h2{font-size:1.2rem;margin-top:2rem}code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:.92em}
+a{color:#0369a1}@media(prefers-color-scheme:dark){body{background:#0f172a;color:#e2e8f0}code{background:#1e293b}a{color:#7dd3fc}}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — API Auto Test Studio</h1>
+<p><em>Last updated: 2026-11-23</em></p>
+<p>API Auto Test Studio is a browser extension that runs RESTful API and JSON-RPC 2.0 test cases that you import from Excel files.</p>
+<h2>Data we collect</h2>
+<p><strong>None.</strong> The extension has no server, no analytics, no telemetry, no advertising and no account system. The developer does not receive any of your data.</p>
+<h2>Data stored on your device</h2>
+<p>The following is stored locally in your browser only, and never transmitted to the developer:</p>
+<ul>
+<li>Test suites, imported Excel content and API responses (IndexedDB).</li>
+<li>Project settings such as Base URL, endpoint mapping, environment profiles and non-secret headers/variables (<code>localStorage</code>, <code>chrome.storage.local</code>).</li>
+<li>Secrets (tokens, passwords, API keys, cookies) are removed before settings are persisted. Session tokens are kept in <code>chrome.storage.session</code>, which is cleared when the browser closes. Role secrets are written to disk only if you explicitly enable &quot;remember&quot; for that role.</li>
+</ul>
+<p>You can delete everything by removing the extension or clearing its site data.</p>
+<h2>Network requests</h2>
+<p>The extension sends HTTP requests <strong>only</strong> to the servers you configure as test targets, and only when you run a test. Cookies are not sent unless you enable &quot;include credentials&quot;. No request is made to the developer or to any third party. All code is bundled; no remote code is loaded.</p>
+<h2>Permissions</h2>
+<ul>
+<li><code>storage</code> — save your settings and test suites locally.</li>
+<li><code>activeTab</code> — read the origin (scheme + host) of the current tab when you click &quot;Get Base URL from current tab&quot; in the popup. Page content is never read.</li>
+<li>Optional host permissions (<code>http://*/*</code>, <code><a href="https://*/*">https://*/*</a></code>) — requested per origin, at run time, only for the API servers you choose to test. You can revoke them anytime in <code>chrome://extensions</code>.</li>
+</ul>
+<h2>Children</h2>
+<p>The extension is a developer tool and is not directed at children.</p>
+<h2>Changes</h2>
+<p>Changes to this policy will be published with the new extension version.</p>
+<h2>Contact</h2>
+<p>Questions or requests about this policy: open an issue at <a href="https://github.com/nhthanh2-cmcglobal/nhthanh2-cmcglobal.github.io/issues">https://github.com/nhthanh2-cmcglobal/nhthanh2-cmcglobal.github.io/issues</a> (please mention &quot;API Auto Test Studio&quot;).</p>
+</body>
+</html>
